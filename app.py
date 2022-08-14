@@ -5,7 +5,6 @@ import numpy as np
 import time
 import cv2
 import os
-import av
 
 from tensorflow.keras import layers
 from tensorflow import keras 
