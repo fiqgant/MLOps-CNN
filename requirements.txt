@@ -5,3 +5,4 @@ opencv-python-headless
 Pillow==9.2.0
 streamlit==1.11.1
 tensorflow_cpu
+seaborn
