@@ -4,7 +4,10 @@ import tensorflow as tf
 import seaborn as sns
 import numpy as np
 
-tf.config.list_physical_devices('GPU') tf.config.experimental.set_memory_growth(gpus[0], True)
+physical_devices = tf.config.experimental.list_physical_devices('GPU')
+print(physical_devices)
+if physical_devices:
+  tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 ### Preprocessing the Training set
 train_datagenerator = ImageDataGenerator(rescale = 1./255,
