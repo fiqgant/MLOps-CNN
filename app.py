@@ -10,8 +10,6 @@ from tensorflow.keras import layers
 from tensorflow import keras 
 from PIL import Image
 
-tf.config.list_physical_devices('GPU') tf.config.experimental.set_memory_growth(gpus[0], True)
-
 
 st.set_page_config( 
 layout="wide",  
