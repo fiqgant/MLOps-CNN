@@ -6,3 +6,4 @@ Pillow==9.2.0
 streamlit==1.11.1
 tensorflow
 seaborn
+tf-nightly
