@@ -78,7 +78,6 @@ def main():
         camera = cv2.VideoCapture(0)
         while run:
             ret, frame = camera.read()
-            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             cv2.imshow('LIVE', face_detection(frame))          
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
