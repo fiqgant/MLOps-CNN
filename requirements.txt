@@ -1,7 +1,7 @@
 keras==2.9.0
 matplotlib==3.5.1
 numpy
-opencv_python==4.6.0.66
+opencv-python-headless
 Pillow==9.2.0
 streamlit==1.11.1
 tensorflow_cpu
